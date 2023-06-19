@@ -22,4 +22,21 @@ public class SecurityController {
     return ("Welcome");
   }
 
+  @GetMapping("/admin")
+  public String admin(){
+    return ("Welcome Admin");
+  }
+
+  @GetMapping("/")
+  public String showAllAdmin(){
+    return ("Welcome All");
+  }
+
+  @GetMapping("/user")
+  public String user(){
+    return ("Welcome user");
+  }
+
+
+
 }
